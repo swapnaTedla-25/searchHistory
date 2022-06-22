@@ -1,0 +1,31 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.history-header-section {
+  display: flex;
+  background-color: #2850a7;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.app-logo {
+  width: 80px;
+}
+.search-input-container {
+  align-self: center;
+}
+.search-icon {
+  height: 10px;
+  width: 10px;
+  background-color: #475569;
+}
+.search-input {
+  background-color: #475569;
+  margin-left: 1px;
+}

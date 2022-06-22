@@ -1,0 +1,43 @@
+.history-item-container {
+  display: flex;
+  background-color: #ffffff;
+  font-family: 'roboto';
+  padding: 10px;
+}
+
+.date-time {
+  color: #2850a7;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: #2850a7;
+  font-weight: bold;
+}
+
+.domainUrl {
+  color: #6697ff;
+  font-size: 22px;
+  font-weight: 400;
+}
+.delete-button {
+  border-style: none;
+  background-color: transparent;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
