@@ -1,5 +1,6 @@
 .history-item-container {
   display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   font-family: 'roboto';
   padding: 10px;
@@ -8,36 +9,51 @@
 .date-time {
   color: #2850a7;
   font-weight: bold;
-  font-size: 24px;
-  padding-left: 10px;
+  font-size: 14px;
   padding-right: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+}
+
+.logo-title-url-container {
+  display: flex;
+  flex-direction: row;
 }
 .image {
-  height: 20px;
-  width: 20px;
-  margin: 10px;
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.title-url-container {
+  display: flex;
+  flex-direction: column;
 }
 .title-container {
   display: flex;
-  justify-content: space-between;
 }
 .title {
   color: #2850a7;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .domainUrl {
   color: #6697ff;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
+  margin-top: 0px;
 }
 .delete-button {
   border-style: none;
   background-color: transparent;
+  cursor: pointer;
+  align-self: flex-end;
+  padding-bottom: 10px;
+  width: 100px;
+  height: 100px;
 }
 .delete-icon {
   height: 20px;
   width: 20px;
+  margin-top: 15px;
 }

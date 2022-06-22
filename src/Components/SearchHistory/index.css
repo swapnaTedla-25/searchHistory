@@ -1,5 +1,6 @@
 .app-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -7,25 +8,54 @@
 
 .history-header-section {
   display: flex;
-  background-color: #2850a7;
+  flex-direction: row;
+  background-color: #3367d6;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 15px;
   padding-bottom: 15px;
+  width: 100%;
+  max-width: 900px;
+}
+.image-container {
+  align-self: flex-start;
+  margin-right: 40px;
 }
 
 .app-logo {
   width: 80px;
 }
 .search-input-container {
+  display: flex;
+  flex-direction: row;
   align-self: center;
 }
 .search-icon {
-  height: 10px;
-  width: 10px;
-  background-color: #475569;
+  height: 30px;
+  width: 30px;
+  background-color: #2850a7;
+  border: 1px solid #ececec;
 }
 .search-input {
-  background-color: #475569;
+  align-self: center;
+  background-color: #2850a7;
   margin-left: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  outline: none;
+  border: 1px solid #ececec;
+  color: #ffffff;
+  width: 300px;
+}
+.history-body-section {
+  width: 100%;
+  max-width: 800px;
+}
+.history-list-container {
+  border-radius: 15px;
+  margin-top: 40px;
+  padding-left: 10px;
+  box-shadow: 10px 5px 16px 10px #bfbfbf;
 }
