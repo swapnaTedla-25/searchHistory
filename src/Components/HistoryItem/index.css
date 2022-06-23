@@ -13,6 +13,11 @@
   padding-right: 10px;
 }
 
+.logo-title-url-delete-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .logo-title-url-container {
   display: flex;
   flex-direction: row;
@@ -47,7 +52,6 @@
   border-style: none;
   background-color: transparent;
   cursor: pointer;
-  align-self: flex-end;
   padding-bottom: 10px;
   width: 100px;
   height: 100px;

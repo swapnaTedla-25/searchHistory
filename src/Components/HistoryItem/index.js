@@ -11,14 +11,15 @@ const HistoryItem = props => {
   return (
     <li className="history-item-container">
       <p className="date-time">{timeAccessed}</p>
-      <div className="logo-title-url-container">
-        <div className="logo1-title-url-container">
+      <div className="logo-title-url-delete-container">
+        <div className="logo-title-url-container">
           <img src={logoUrl} alt="domain logo" className="image" />
           <div className="title-url-container">
             <p className="title">{title}</p>
             <p className="domainUrl">{domainUrl}</p>
           </div>
         </div>
+
         <button
           className="delete-button"
           type="button"
